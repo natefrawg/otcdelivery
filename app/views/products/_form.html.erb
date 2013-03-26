@@ -1,21 +1,13 @@
-<%= form_for(@product) do |f| %>
-  <% if @product.errors.any? %>
-    <div id="error_explanation">
-      <h2><%= pluralize(@product.errors.count, "error") %> prohibited this product from being saved:</h2>
+<%= simple_form_for(@product, html: { class: "form-horizontal"}) do |f| %>
+  <% f.error_notification %>
 
-      <ul>
-      <% @product.errors.full_messages.each do |msg| %>
-        <li><%= msg %></li>
-      <% end %>
-      </ul>
-    </div>
-  <% end %>
-
-  <div class="field">
-    <%= f.label :description %><br />
-    <%= f.text_field :description %>
+  <div class="form-inputs">
+    <%= f.input :product_name %>
+    <%= f.input :description, as: :text, input_html: { rows: "3" } %>
+    <%= f.input :url %>
   </div>
-  <div class="actions">
-    <%= f.submit %>
+
+  <div class="form-actions">
+    <%= f.button :submit, class: "btn btn-primary" %>
   </div>
 <% end %>
