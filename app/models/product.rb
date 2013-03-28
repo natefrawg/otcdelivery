@@ -1,5 +1,5 @@
 class Product < ActiveRecord::Base
-  attr_accessible :product_name, :image, :description, :url
+  attr_accessible :product_name, :image, :description, :url, :image_file_name
   has_attached_file :image, styles: { medium: "320x240>" }
 
   validates :product_name, presence:true
