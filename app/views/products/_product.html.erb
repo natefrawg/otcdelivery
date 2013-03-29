@@ -1,13 +1,16 @@
 <div class="box">
-  <%= image_tag product.image(:medium) %>
+  <%= link_to (image_tag product.image(:medium)), product.url %>
   <div class="description">
 	  <strong>
 		  <%= product.product_name %>
 	  </strong>
+	  <p></p>
 	  <%= product.description %>
-  </div>
-  <%= product.url %>
-  <%= link_to 'Show', product %>
+	  <p></p>
+	  <%= link_to 'Add to Cart', product.url, class: "btn btn-primary" %>
+    <p></p>
+	  </div>
+  
   <% if user_signed_in? %>
 	  <p>
 	  <%= link_to 'Edit', edit_product_path(product) %>
