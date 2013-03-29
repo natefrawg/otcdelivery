@@ -1,0 +1,13 @@
+<% if user_signed_in? %>
+	<h2>You're logged in!</h2>
+<% else %>
+	<div class="hero-unit">
+		<h1>Welcome to Dr. Johnson's E-Store </h1>
+			<p>
+				Save yourself a trip to the pharmacy, and get your over-the-counter meds delivered straight to your doorstep.
+			</p>
+			<p>
+				<%#= link_to "Physician Sign Up", new_user_registration_path, class: "btn btn-primary btn-large" %>
+			</p>
+	</div>
+<% end %>

@@ -4,7 +4,7 @@ Otcdelivery::Application.routes.draw do
   resources :products
 
 
-  root :to => 'pages#home'
+  root :to => 'products#index'
   get 'about' => 'pages#about'
 
   # The priority is based upon order of creation:
