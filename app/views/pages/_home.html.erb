@@ -1,15 +1,12 @@
 <% if user_signed_in? %>
 	<h2>You're logged in!</h2>
 <% else %>
-	<div class="page-header">
-		<h1>Save yourself a trip to the pharmacy
-			<p><small>
-				Get your over-the-counter meds delivered straight to your doorstep. 
-			</p></small>  
-		</h1>
+	<div class="page-header"; line-height: 200%>
+		<h1>Save a trip to the pharmacy</h1>
+		<h1><small>Get your over-the-counter meds delivered straight to your doorstep. </small></h1>
 			
-			<p>
-				<%#= link_to "Physician Sign Up", new_user_registration_path, class: "btn btn-primary btn-large" %>
-			</p>
+		<p>
+			<%#= link_to "Physician Sign Up", new_user_registration_path, class: "btn btn-primary btn-large" %>
+		</p>
 	</div>
 <% end %>

@@ -65,7 +65,17 @@ Otcdelivery::Application.configure do
   # with SQLite, MySQL, and PostgreSQL)
   # config.active_record.auto_explain_threshold_in_seconds = 0.5
 
-# In production, :host sohuld be set to the actual host of your application.
+  # In production, :host sohuld be set to the actual host of your application.
   config.action_mailer.default_url_options = { :host => 'http://www.otcdelivery.com' }
+
+  # Paperclip should use Amazon S3 on Heroku
+  config.paperclip_defauls = {
+    :storage => :s3,
+    :s3_credentials => {
+      :bucket => ENV['AWS_BUCKET'],
+      :access_key_id => ENV['AWS_ACCESS_KEY_ID'],
+      :secret_access_key => ENV['AWS_SECRET_ACCESS_KEY']
+    }
+  }
 
 end
