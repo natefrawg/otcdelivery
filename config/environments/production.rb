@@ -69,7 +69,7 @@ Otcdelivery::Application.configure do
   config.action_mailer.default_url_options = { :host => 'http://www.otcdelivery.com' }
 
   # Paperclip should use Amazon S3 on Heroku
-  config.paperclip_defauls = {
+  config.paperclip_defaults = {
     :storage => :s3,
     :s3_credentials => {
       :bucket => ENV['AWS_BUCKET'],
