@@ -36,7 +36,7 @@ body {
 	border-radius: 5px;
 	box-shadow: 1px 1px 10px #444;
 	width: 214px;
-	height: 340px;
+	height: 350px;
 }
 
 .box img {
@@ -48,6 +48,11 @@ body {
 }
 
 .description {
-	margin: 10px 0 5px;
+	position: absolute;
+	width: 96%;
+	bottom: 0;
+	right: 2;
+	left: 2;
+	margin: 5px 0 0px;
 }
 
