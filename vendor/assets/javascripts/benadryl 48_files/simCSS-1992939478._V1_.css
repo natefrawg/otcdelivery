@@ -1,0 +1,100 @@
+.simsWrapper{overflow:hidden;}
+.simsWrapper .shoveler-heading{padding-right:227px;margin-bottom:15px;}
+.simsWrapper .shoveler-pagination{width:227px;text-align:right;padding:0;}
+.simsWrapper .shoveler-content{margin:0 35px 0 45px;clear:both;}
+.simsWrapper .shoveler-button-wrapper{position:relative;width:100%;}
+.simsWrapper .shoveler a.back-button,.simsWrapper .shoveler a.next-button{top:50%;margin-top:-25px;}
+.simsWrapper a{text-decoration:none;}
+.simsWrapper a:hover,.simsWrapper a:focus{text-decoration:underline;}
+.simsWrapper .sim-img-title,.simsWrapper .sim-img-title span,.simsWrapper .price,.simsWrapper .price-small,.simsWrapper .price-small a{font-family:Arial,Helvetica,sans-serif;}
+.simsWrapper .price-small .s_PrimeBadge{vertical-align:top;position:static;}
+.simsWrapper .fixed-line{line-height:1.28em;}
+.simsWrapper .pricetext{margin-top:2px;}
+.simsWrapper .price{white-space:nowrap;margin-right:.6em;}
+.simsWrapper .price .unit{color:#666;font-size:12px;}
+.simsWrapper .maplink{font-size:11px;white-space:nowrap;}
+.simsWrapper .rating-price{line-height:13px;margin:2px 0;}
+.simsWrapper .rating-stars{font-size:11px;}
+.simsWrapper .byline{font-size:11px;margin:1px 0 3px;}
+.simsWrapper .carat{color:#E47911;font-size:14px;font-weight:bold;line-height:0;font-family:verdana;}
+.simsWrapper .binding-platform{color:#666;font-size:11px;line-height:15px;margin:2px 0 0 0;}
+.simsWrapper .price-small{color:#666;font-size:11px;white-space:nowrap;}
+.simsWrapper .price.medium{font-size:12px;margin-top:2px;display:inline-block;}
+.simsWrapper .sim-img-title{font-size:12px;}
+.simsWrapper .sim-img-title img{vertical-align:bottom;margin-bottom:.45em;}
+.sims-popunder{width:205px;z-index:100;position:absolute;}
+.sims-popunder .new-faceout{padding-left:22px;padding-right:23px;padding-bottom:30px;}
+.sims-atc{font-family:Verdana,Geneva,sans-serif;font-size:11px;line-height:14px;margin-top:10px;color:#666;display:none;}
+.sims-popunder .sims-atc{display:block;overflow-x:hidden;}
+.sim-stock-green{color:#090;}
+.sim-stock-red{color:#900;}
+.sim-stock-orange{color:#C60;}
+.sims-atc strong{font-weight:normal;}
+.sims-availabilty{margin-top:8px;}
+.sims-shipping{margin-top:5px;}
+.bdSprite{display:-moz-inline-box;display:inline-block;margin:0;padding:0;overflow:hidden;vertical-align:middle;}
+.bdSprite span{left:-9999px;position:absolute;}
+.s_buynowsm{background-position:0 0;width:117px;height:17px;}
+.s_buyalbumsm{background-position:0 -20px;width:126px;height:17px;}
+.s_buysongsm{background-position:0 -40px;width:119px;height:17px;}
+.s_getnowsm{background-position:0 -60px;width:117px;height:17px;}
+.s_preordersm{background-position:0 -80px;width:122px;height:17px;}
+a.show-dataset{color:#039;font-weight:bold;text-decoration:none;}
+a.show-dataset:hover{color:#c60;text-decoration:underline;}
+#more-to-explore{margin:8px 30px 10px;color:#666;}
+.simsWrapper .new-faceout{position:relative;}
+.simsMp3AsinContainer{display:none;}
+.simsMp3Enabled .simsMp3AsinContainer{display:block;height:24px;width:100px;left:0;top:76px;overflow:hidden;position:absolute;cursor:pointer;text-decoration:none!important;}
+.simsMp3Enabled .simsMp3AsinContainer:hover,.simsMp3Enabled .simsMp3AsinContainer:focus,.simsMp3Enabled .simsMp3AsinContainer.mp3AsinPause,.simsMp3Enabled .simsMp3AsinContainer.mp3AsinLoading,.simsMp3Enabled .simsMp3AsinContainer.mp3AsinPaused{background-color:#fff;opacity:.9;filter:alpha(opacity = 90);}
+.simsMp3Enabled .simsMp3AsinContainer:hover .mp3AsinText,.simsMp3Enabled .simsMp3AsinContainer:focus .mp3AsinText,.simsMp3Enabled .simsMp3AsinContainer.mp3AsinPause .mp3AsinText,.simsMp3Enabled .simsMp3AsinContainer.mp3AsinLoading .mp3AsinText,.simsMp3Enabled .simsMp3AsinContainer.mp3AsinPaused .mp3AsinText{visibility:visible;}
+.simsMp3Enabled .mp3AsinText{position:absolute;top:0;left:24px;width:50px;height:24px;line-height:24px;font-size:11px;font-family:Arial,Helvetica,sans-serif;visibility:hidden;color:#000;}
+.simsMp3Enabled div.mp3AsinPlayImg{height:22px;width:22px;cursor:pointer;padding:0;margin-top:1px;margin-left:1px;background-position:0 0;}
+div.mp3AsinPlayImg span{left:-9999px;position:absolute;}
+.mp3AsinPause div.mp3AsinPlayImg{background-position:-22px -22px;}
+.mp3AsinPaused div.mp3AsinPlayImg{background-position:-22px 0;}
+.mp3AsinLoading div.mp3AsinPlayImg{height:16px;width:16px;margin:3px 3px 2px 2px;cursor:pointer;background-position:0 0;}
+.simsWrapper .hmd-sim-shoveler{color:#666;font-size:11px;line-height:15px;margin:10px 0 0 30px;display:none;}
+.simsWrapper .hmd-sim-shoveler.hmd-enabled{display:block;}
+.simsWrapper .hmd-per-asin,.simsWrapper .hmd-per-asin:hover,.simsWrapper .hmd-per-asin:focus{display:none;font-size:12px;position:absolute;top:0;left:0;height:20px;width:100px;white-space:nowrap;text-decoration:none!important;font-weight:bold;z-index:2000;}
+.simsWrapper .hmd-per-asin .hmd-per-asin-link{font-family:Arial,Helvetica,sans-serif;}
+.simsWrapper .hmd-per-asin a:hover,.simsWrapper .hmd-per-asin a:focus{text-decoration:none!important;}
+.hmd-exposed .hmd-per-asin,.hmd-exposed .hmd-per-asin:hover,.hmd-exposed .hmd-per-asin:focus{display:block;}
+.hmd-exposed .hmd-per-asin-spacer{height:20px;display:block;}
+.hmd-per-asin-spacer{height:0;display:none;}
+.hmd-exposed .simsMp3AsinContainer{top:96px;}
+.sims-popunder .hmd-per-asin{left:22px;}
+.hmd-success{color:#090;font-family:Arial,Helvetica,sans-serif;}
+.auiTestWrapper .a-text-separator{background-color:#DDD;display:inline-block;height:14px;line-height:0;margin:-2px .67375em 0;vertical-align:middle;width:1px;}
+.auiTestWrapper .auiTestSprite{display:inline-block;margin:0;overflow:hidden;padding:0;position:relative;vertical-align:middle;}
+.auiTestWrapper .auiTestSprite span{left:-9999px;position:absolute;}
+#hiddenAUITestSprite.auiTestSprite{left:-9999px;position:absolute;}
+.simsWrapper.auiTestWrapper .shoveler a.back-button{width:36px;height:39px;}
+.auiTestWrapper .auiTestSprite.s_shvlBack{width:36px;height:39px;background-position:0 0;}
+.auiTestWrapper .auiTestSprite.s_shvlBack:hover{background-position:0 -50px;}
+.auiTestWrapper .depressed .auiTestSprite.s_shvlBack{background-position:0 -100px;}
+.simsWrapper.auiTestWrapper .shoveler a.next-button{width:36px;height:39px;}
+.auiTestWrapper .auiTestSprite.s_shvlNext{width:36px;height:39px;background-position:-40px 0;}
+.auiTestWrapper .auiTestSprite.s_shvlNext:hover{background-position:-40px -50px;}
+.auiTestWrapper .depressed .auiTestSprite.s_shvlNext{background-position:-40px -100px;}
+.auiTestWrapper .auiTestSprite.s_star_0_5{background-position:-60px -270px;height:19px;width:75px;}
+.auiTestWrapper .auiTestSprite.s_star_1_5{background-position:-45px -270px;height:19px;width:75px;}
+.auiTestWrapper .auiTestSprite.s_star_2_5{background-position:-30px -270px;height:19px;width:75px;}
+.auiTestWrapper .auiTestSprite.s_star_3_5{background-position:-15px -270px;height:19px;width:75px;}
+.auiTestWrapper .auiTestSprite.s_star_4_5{background-position:0 -270px;height:19px;width:75px;}
+.auiTestWrapper .auiTestSprite.s_star_1_0{background-position:-60px -250px;height:19px;width:75px;}
+.auiTestWrapper .auiTestSprite.s_star_2_0{background-position:-45px -250px;height:19px;width:75px;}
+.auiTestWrapper .auiTestSprite.s_star_3_0{background-position:-30px -250px;height:19px;width:75px;}
+.auiTestWrapper .auiTestSprite.s_star_4_0{background-position:-15px -250px;height:19px;width:75px;}
+.auiTestWrapper .auiTestSprite.s_star_5_0{background-position:0 -250px;height:19px;width:75px;}
+.auiTestWrapper .auiTestSprite.s_add2CartSm{background-position:0 -160px;height:22px;width:160px;}
+.auiTestWrapper .auiTestSprite.s_seeBuyingOptionsSm{background-position:0 -190px;height:22px;width:160px;}
+.auiTestWrapper .auiTestSprite.s_preorderThisItemSm{background-position:0 -220px;height:22px;width:160px;}
+.simsWrapper.auiTestWrapper,.simsWrapper.auiTestWrapper .byline,.simsWrapper.auiTestWrapper .byline a,.simsWrapper.auiTestWrapper .rating-stars,.simsWrapper.auiTestWrapper .rating-price,.simsWrapper.auiTestWrapper .binding-platform,.simsWrapper.auiTestWrapper .pricetext,.simsWrapper.auiTestWrapper .price,.simsWrapper.auiTestWrapper .price-small{font-family:Arial,sans-serif;}
+.simsWrapper.auiTestWrapper .shoveler-heading{font-family:verdana,arial,helvetica,sans-serif;}
+.simsWrapper.auiTestWrapper .byline,.simsWrapper.auiTestWrapper .byline a,.simsWrapper.auiTestWrapper .binding-platform,.simsWrapper.auiTestWrapper .pricetext,.simsWrapper.auiTestWrapper .price,.simsWrapper.auiTestWrapper .price-small{margin:0;}
+.simsWrapper.auiTestWrapper .rating-price{margin:3px 0 0 0;}
+.simsWrapper.auiTestWrapper .shoveler-content{margin:0 41px 0 45px;}
+.simsWrapper.auiTestWrapper .sim-img-title,.simsWrapper.auiTestWrapper .shoveler-pagination,.simsWrapper.auiTestWrapper .pricetext,.simsWrapper.auiTestWrapper .price{font-size:13px;line-height:1.465;}
+.simsWrapper.auiTestWrapper .sims-atc,.simsWrapper.auiTestWrapper .sims-atc a{font-family:Arial,sans-serif;font-size:12px;line-height:1.5;}
+.simsWrapper.auiTestWrapper span.start-over,.simsWrapper.auiTestWrapper span.start-over a{font-size:100%;font-family:Arial,sans-serif;}
+.simsWrapper.auiTestWrapper .price-small .s_PrimeBadge{vertical-align:baseline;}
