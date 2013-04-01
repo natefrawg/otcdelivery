@@ -10,10 +10,8 @@
 	  <%= link_to 'Order', product.url, class: "btn btn-block" %>
     <p></p>
 		<% if user_signed_in? %>
-		  <p>
 		  <%= link_to 'Edit', edit_product_path(product) %>
 		  <%= link_to 'Destroy', product, method: :delete, data: { confirm: 'Are you sure?' } %>
-			</p>
 		<% end %>
 	</div>
 </div>
