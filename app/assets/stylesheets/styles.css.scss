@@ -17,11 +17,30 @@ body {
 
 .footer {
 	margin-top: 50px;
+	padding-top: 5px;
+	border-top: 1px solid #eaeaea;
 	color: $grayLight;
 	a {
 		color: $blue;
 	}
+
+	small {
+		float: left;
+	}
+
+	ul {
+		float: right;
+		list-style: none;
+	}
+
+	ul li {
+		float: left;
+		margin-left: 10px
+	}
+
 }
+
+
 
 /* Requred for jQuery Masonry */
 

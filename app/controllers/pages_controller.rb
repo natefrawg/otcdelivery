@@ -7,4 +7,10 @@ class PagesController < ApplicationController
   
   def productlist
   end
+
+  def terms
+  end
+
+  def privacy
+  end
 end

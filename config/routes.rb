@@ -7,6 +7,8 @@ Otcdelivery::Application.routes.draw do
   root :to => 'products#index'
   get 'about' => 'pages#about'
   get 'productlist' => 'pages#productlist'
+  get 'terms' => 'pages#terms'
+  get 'privacy' => 'pages#privacy'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
