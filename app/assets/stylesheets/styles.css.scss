@@ -60,7 +60,9 @@ body {
 
 .box img {
 	display: block;
-	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	height: 18em;
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
