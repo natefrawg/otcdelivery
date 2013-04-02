@@ -55,14 +55,15 @@ body {
 	border-radius: 5px;
 	box-shadow: 1px 1px 10px #444;
 	width: 214px;
-	height: 340px;
+	height: 310px;
 }
 
 .box img {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	height: 18em;
+	max-height: 50%;
+	max-width: 100%;
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
